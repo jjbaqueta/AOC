@@ -17,7 +17,7 @@
     <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(f)</a></p>
     <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 2(a)</a></p>
     <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 2(b)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 1</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/elseif_parImpar.asm">aula 12 (desvios): exercício 1</a></p>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/elseif_temperaturas.asm">aula 12 (desvios): exercício 2</a></p>
     <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 3</a></p>
 </p>
