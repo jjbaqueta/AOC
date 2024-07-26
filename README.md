@@ -9,12 +9,12 @@
    </p><h3>Códigos elaborados em aula:</h3>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/elseIf_idades.asm">aula 12 (desvios): classificação de idade</a></p>
    </p><h3>Resolução dos exercícios dos slides:</h3>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(a)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(b)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(c)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(d)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(e)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(f)</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer1_a.asm">aula 11 (inst. tipo I): exercício 1(a)</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer1_b.asm">aula 11 (inst. tipo I): exercício 1(b)</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer1_c.asm">aula 11 (inst. tipo I): exercício 1(c)</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer1_d.asm">aula 11 (inst. tipo I): exercício 1(d)</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer1_e.asm">aula 11 (inst. tipo I): exercício 1(e)</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer1_f.asm">aula 11 (inst. tipo I): exercício 1(f)</a></p>
     <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 2(a)</a></p>
     <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 2(b)</a></p>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/elseif_parImpar.asm">aula 12 (desvios): exercício 1</a></p>
