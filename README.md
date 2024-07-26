@@ -9,14 +9,17 @@
    </p><h3>Códigos elaborados em aula:</h3>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/elseIf_idades.asm">aula 12 (desvios): classificação de idade</a></p>
    </p><h3>Resolução dos exercícios dos slides:</h3>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 1(a)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 1(b)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 1(c)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 1(d)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 1(e)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 1(f)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 2(a)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 2(b)</a></p>
+    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(a)</a></p>
+    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(b)</a></p>
+    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(c)</a></p>
+    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(d)</a></p>
+    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(e)</a></p>
+    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 1(f)</a></p>
+    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 2(a)</a></p>
+    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 2(b)</a></p>
+    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 1</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/elseif_temperaturas.asm">aula 12 (desvios): exercício 2</a></p>
+    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 12 (desvios): exercício 3</a></p>
 </p>
   </div>
   
