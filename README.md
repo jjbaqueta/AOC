@@ -6,16 +6,9 @@
     <p>O conteúdo apresentado foi elaborado com base na <a href="#bibliografia">literatura da área</a>.</p>
   </div>
    <p>
-   </p><h3>Códigos:</h3>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/aula_recursividade.ipynb">aula sobre recursividade</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/aula_ordenacaoElementar.ipynb">aula sobre ordenação elementar</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/aula_ordenacaoAvancada.ipynb">aula sobre ordenação avançada</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/aula_pratica_arrays_comparable.ipynb">aula sobre interfaces Comparable e Comparator</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/aula_comparacaoOrdenacao.ipynb">comparano algoritmos de ordenação</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/aula_comparacaoBusca.ipynb">comparano algoritmos de busca</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/aula_listas.ipynb">lista estática e encadeada</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/aula_pratica_listas.ipynb">aula prática sobre listas</a></p>
-   </p><h3>resolução das listas de exercícios:</h3>
+   </p><h3>Códigos elaborados em aula:</h3>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/elseIf_idades.asm">aula 12: classificação de idade</a></p>
+   </p><h3>resolução dos exercícios dos slides:</h3>
     <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">gabarito da lista de recursividade</a></p>
     <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/prova_1.ipynb">gabarito da prova 1 (P1)</a></p>
     <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/lista_exercicios_map.ipynb">lista de exercícios: maps e trees</a></p>
