@@ -15,8 +15,8 @@
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer1_d.asm">aula 11 (inst. tipo I): exercício 1(d)</a></p>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer1_e.asm">aula 11 (inst. tipo I): exercício 1(e)</a></p>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer1_f.asm">aula 11 (inst. tipo I): exercício 1(f)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 2(a)</a></p>
-    <p><a href="https://github.com/jjbaqueta/EPOD/blob/main/gabarito_exercicios_sobre_recursividade.ipynb">aula 11 (inst. tipo I): exercício 2(b)</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer2_a.asm">aula 11 (inst. tipo I): exercício 2(a)</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer2_b.asm">aula 11 (inst. tipo I): exercício 2(b)</a></p>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/elseif_parImpar.asm">aula 12 (desvios): exercício 1</a></p>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/elseif_temperaturas.asm">aula 12 (desvios): exercício 2</a></p>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula12Exer3.asm">aula 12 (desvios): exercício 3</a></p>
