@@ -8,6 +8,8 @@
    <p>
    </p><h3>Códigos elaborados em aula:</h3>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/elseIf_idades.asm">aula 12 (desvios): classificação de idade</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula15Matrizes_iteracao.asm">aula 15 (matrizes): acesso via iteração</a></p>
+    <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula15Matrizes_acessoDireto.asm">aula 15 (matrizes): acesso direto</a></p>
    </p><h3>Resolução dos exercícios dos slides:</h3>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer1_a.asm">aula 11 (inst. tipo I): exercício 1(a)</a></p>
     <p><a href="https://github.com/jjbaqueta/AOC/blob/main/aula11exer1_b.asm">aula 11 (inst. tipo I): exercício 1(b)</a></p>
