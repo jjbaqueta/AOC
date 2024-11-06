@@ -14,7 +14,7 @@
 
 .text
   lw $t0, a          # Carrega o valor da variável 'a' da memória para $t0
-  addi $t0, $t0, -1	 # Decrementa o valor armazenado em $t0 em uma unidade
-  sw $t0, result	 # Escreve o valor de $t0 na variável 'result'
-  li $v0, 10		 # Finalização do programa
+  addi $t0, $t0, -1  # Decrementa o valor armazenado em $t0 em uma unidade
+  sw $t0, result     # Escreve o valor de $t0 na variável 'result'
+  li $v0, 10         # Finalização do programa
   syscall
