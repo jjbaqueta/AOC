@@ -3,9 +3,9 @@
 #
 # a) Código C
 # int main(){
-#    int a = 10, result;
-#	   result = a++
-#	   return 0;
+#   int a = 10, result;
+#   result = a++
+#   return 0;
 # }
 
 .data
