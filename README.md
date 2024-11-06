@@ -2,7 +2,7 @@
 
 <div>
   <div id="intro">
-    <p> Este repositório tem como objetivo apresentar códigos elaborados elaborados durante a disciplina de Arquitetura e Organização de Computadores do curso de Engenharia Eletrônica da UTFPR-TD. Os codigos apresentados aqui foram elaborados usando Assembly MIPS-32.</p> 
+    <p> Este repositório tem como objetivo apresentar códigos desenvolvidos durante a disciplina de Arquitetura e Organização de Computadores do curso de Engenharia Eletrônica da UTFPR-TD. Os códigos apresentados aqui foram escritos em Assembly MIPS-32.</p> 
     <p>O conteúdo apresentado foi elaborado com base na <a href="#bibliografia">literatura da área</a>.</p>
   
   <div id="bibliografia">
