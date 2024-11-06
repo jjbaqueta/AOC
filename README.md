@@ -1,4 +1,4 @@
-# Arquitetura e Organização de Computadores (AOC_
+# Arquitetura e Organização de Computadores (AOC)
 
 <div>
   <div id="intro">
