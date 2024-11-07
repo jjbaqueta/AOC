@@ -1,6 +1,6 @@
 # Exercício
 # Implemente um programa em Assembly MIPS-32 que, 
-# com base no valor de uma variável inteira chamada idade (de 4 bytes), 
+# com base no valor de uma variável chamada idade (de 4 bytes), 
 # seja capaz de exibir uma das seguintes saídas:
 #   * Se idade > 18, exiba: 1
 #   * Se idade < 18, exiba: -1
