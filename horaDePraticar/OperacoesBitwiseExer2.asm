@@ -18,7 +18,7 @@
 # Possíveis entradas: 0x02FFFFFF, 0xA0FF0000, 0x02800080, 0x10A291AA, 0x0CE1E980
 
 .data:
-  pixel: .word 0xA0FF0000   # Declara um espaço na memória chamado 'pixel' inicializado com o valor 0x02FFFFFF.
+  pixel: .word 0x02FFFFFF   # Declara um espaço na memória chamado 'pixel' inicializado com o valor 0x02FFFFFF.
 
 .text:
   lw $t0, pixel             # Carrega o valor armazenado em 'pixel' para o registrador $t0.
