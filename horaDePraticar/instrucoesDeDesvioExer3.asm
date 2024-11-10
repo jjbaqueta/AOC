@@ -38,5 +38,5 @@
   sw $t2, R              # Escreve o resultado na variável 'R'.
 	
   FIM:
-  li $v0, 10             # Carrega o valor 1 no registrador $v0 (código para finalização do programa).
+  li $v0, 10             # Carrega o valor 10 no registrador $v0 (código para finalização do programa).
   syscall                # Finalização do programa
