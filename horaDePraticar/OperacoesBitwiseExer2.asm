@@ -4,7 +4,7 @@
 # conforme descrito abaixo. Os canais red (R), green (G) e blue (B) são as três componentes de cor do pixel, 
 # enquanto a componente α representa o fator de transparência. Se pelo menos duas das componentes de cor 
 # forem maiores ou iguais a 128, você deve somar 10 ao fator de transparência. 
-#Caso contrário, você deve zerar a componente R.
+# Caso contrário, você deve zerar a componente R.
 #
 # Considere que o valor do pixel será carregado a partir de uma variável de 32 bits chamada pixel. 
 # Após a operação, o valor dessa variável deve ser atualizado na memória.
