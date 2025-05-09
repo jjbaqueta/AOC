@@ -11,7 +11,7 @@
 # até que o usuário informe um valor negativo como idade.
 
 .data
-   idade: .space 4	    # Declara um espaço na memória (4 bytes) chamado 'idade' não inicializado.
+   idade: .space 4       # Declara um espaço na memória (4 bytes) chamado 'idade' não inicializado.
    
 .text
    LOOP:
