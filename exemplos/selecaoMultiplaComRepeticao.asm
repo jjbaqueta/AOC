@@ -15,30 +15,30 @@
    
 .text
    LOOP:
-   li $v0, 5            # Código para leitura de um inteiro
-   syscall		          # Executa a rotina de leitura via terminal.
+   li $v0, 5             # Código para leitura de um inteiro
+   syscall               # Executa a rotina de leitura via terminal.
    
-   move $t0, $v0 	      # Move o inteiro lido ($v0) para $t0
-   blt $t0, 0, FIM	    # Se $t0 (idade) for negativa, desvia para o rótulo "FIM".
-   bgt $t0, 18, MAIOR	  # Se $t0 (idade) for maior que 18, desvia para o rótulo "MAIOR".
-   blt $t0, 18, MENOR	  # Se $t0 (idade) for menor que 18, desvia para o rótulo "MENOR"
-   li $a0, 0		        # Se $t0 (idade) for igual a 18, carrega o valor 0 no registrador $a0.
-   li $v0, 1		        # Carrega o valor 1 no registrador $v0 (código para imprmir um inteiro).
-   syscall		          # Executa a impressão do valor em $a0.
-   j LOOP		            # Desvia para o rótulo "LOOP".
+   move $t0, $v0         # Move o inteiro lido ($v0) para $t0
+   blt $t0, 0, FIM       # Se $t0 (idade) for negativa, desvia para o rótulo "FIM".
+   bgt $t0, 18, MAIOR    # Se $t0 (idade) for maior que 18, desvia para o rótulo "MAIOR".
+   blt $t0, 18, MENOR    # Se $t0 (idade) for menor que 18, desvia para o rótulo "MENOR"
+   li $a0, 0             # Se $t0 (idade) for igual a 18, carrega o valor 0 no registrador $a0.
+   li $v0, 1             # Carrega o valor 1 no registrador $v0 (código para imprmir um inteiro).
+   syscall               # Executa a impressão do valor em $a0.
+   j LOOP                # Desvia para o rótulo "LOOP".
    
    MAIOR:
-   li $a0, 1            # Carrega o valor 1 em $a0.
-   li $v0, 1            # Carrega o valor 1 no registrador $v0 (código para imprmir um inteiro).
-   syscall              # Executa a impressão do valor em $a0.
-   j LOOP		            # Desvia para o rótulo "LOOP".
+   li $a0, 1             # Carrega o valor 1 em $a0.
+   li $v0, 1             # Carrega o valor 1 no registrador $v0 (código para imprmir um inteiro).
+   syscall               # Executa a impressão do valor em $a0.
+   j LOOP                # Desvia para o rótulo "LOOP".
    
    MENOR:
-   li $a0, -1           # Carrega o valor -1 em $a0.
-   li $v0, 1            # Carrega o valor 1 no registrador $v0 (código para imprmir um inteiro).
-   syscall              # Executa a impressão do valor em $a0.
-   j LOOP		            # Desvia para o rótulo "LOOP".
+   li $a0, -1            # Carrega o valor -1 em $a0.
+   li $v0, 1             # Carrega o valor 1 no registrador $v0 (código para imprmir um inteiro).
+   syscall               # Executa a impressão do valor em $a0.
+   j LOOP                # Desvia para o rótulo "LOOP".
    
    FIM:
-   li $v0, 10		        # Carrega o valor 10 no registrador $v0 (código para finalização do programa).
-   syscall		          # Finalização do programa
+   li $v0, 10            # Carrega o valor 10 no registrador $v0 (código para finalização do programa).
+   syscall               # Finalização do programa
