@@ -2,6 +2,12 @@
 # Implemente um programa que leia uma temperatura em graus Celsius 
 # fornecida pelo usuário (C) (via terminal), converta para Fahrenheit (F) 
 # e exiba o resultado no terminal.
+# 
+# F = (9 * C / 5) + 32
+#
+# Exemplo de entrada e saída:
+# C: 22
+# F: 77
 
 .data
 .text
