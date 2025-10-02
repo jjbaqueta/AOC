@@ -71,5 +71,5 @@
   FIM:
   sw $t0, pixel            # Atualiza o valor α na memória
   
-  li $v0, 10               # Carrega o valor 1 no registrador $v0 (código para finalização do programa).
+  li $v0, 10               # Carrega o valor 10 no registrador $v0 (código para finalização do programa).
   syscall                  # Finalização do programa
