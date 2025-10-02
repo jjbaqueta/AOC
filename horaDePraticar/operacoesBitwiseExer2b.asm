@@ -29,7 +29,7 @@
   srl $t2, $t2, 8       # Deslocamento para os bits de ordem menos significativa.
   move $a0, $t2         # Carrega o valor 0 ou 1 para o registrador $a0.
   
-  li $v0, 1		# Carrega o valor 1 no registrador $v0 (código para exibir um inteiro).
+  li $v0, 1		          # Carrega o valor 1 no registrador $v0 (código para exibir um inteiro).
   syscall               # Exibe o conteúdo de $a0 no terminal
 
   li $v0, 10            # Carrega o valor 10 no registrador $v0 (código para finalização do programa).
