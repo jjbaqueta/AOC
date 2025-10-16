@@ -21,50 +21,50 @@ inicio: .word 0                                  # Índice do primeiro elemento 
 fim: .word 9                                     # Índice do último elemento do vetor
 
 .text
-.globl main                                      # Define o ponto de entrada global do programa.
+.globl main                   # Define o ponto de entrada global do programa.
 
 # Função minimo:
 # $a0: endereço base do vetor
 # $a1: índice do primeiro elemento do vetor (início)
 # $a2: índice do último elemento do vetor (fim)
 minimo:
-   bgt $a2, $a1, RECURSAO                        # Se fim ($a2) for maior que início ($a1), desvia para RECURSAO
-   move $v0, $a1                                 # $v0 = $a1, retorna o ínicio (índice do primeiro elemento)
-   jr $ra                                        # Retorna para a função chamadora.
+   bgt $a2, $a1, RECURSAO     # Se fim ($a2) for maior que início ($a1), desvia para RECURSAO
+   move $v0, $a1              # $v0 = $a1, retorna o ínicio (índice do primeiro elemento)
+   jr $ra                     # Retorna para a função chamadora.
 
 RECURSAO:
-   addi $sp, $sp, -12                            # Aloca 12 bytes de espaço na pilha
-   sw $ra, 8($sp)                                # Salva o registrador o endereço de retorno ($ra) na pilha.
-   sw $fp, 4($sp)                                # Salva o valor antigo de $fp
-   sw $a2, 0($sp)                                # Salva o registrador fim atual ($a2) na pilha. 
-   move $fp, $sp                                 # Estabelecer a âncora do frame
-   add $a2, $a2, -1                              # $a2 = $a2 - 1 (fim do vetor é decrementado em uma unidade).
-   jal minimo                                    # Chamada recursiva.
+   addi $sp, $sp, -12         # Aloca 12 bytes de espaço na pilha
+   sw $ra, 8($sp)             # Salva o registrador o endereço de retorno ($ra) na pilha.
+   sw $fp, 4($sp)             # Salva o valor antigo de $fp
+   sw $a2, 0($sp)             # Salva o registrador fim atual ($a2) na pilha. 
+   move $fp, $sp              # Estabelecer a âncora do frame
+   add $a2, $a2, -1           # $a2 = $a2 - 1 (fim do vetor é decrementado em uma unidade).
+   jal minimo                 # Chamada recursiva.
    
-   lw $a2, 0($fp)                                # Restaura o valor de $a2.
-   sll $t1, $v0, 2                               # Multiplica o índice do menor elemento ($v0) por 4 e armazena em $t1.
-   add $t1, $t1, $a0                             # Calcula o endereço do elemento no menor elemento e armazena em $t1.
-   lw $t3, ($t1)                                 # Carrega o valor do menor elemento para $t3.
-   sll $t2, $a2, 2                               # Multiplica o índice de fim ($a2) por 4 e armazena em $t2.
-   add $t2, $t2, $a0                             # Calcula o endereço do último elemento do vetor e armazena em $t2.
-   lw $t4, ($t2)                                 # Carrega o valor do úlitmo elemento para $t4.
-   bge $t4, $t3, RETORNA                         # Se o último elemento for maior do que o menor elemento, desvia para RETORNA.
-   move $v0, $a2                                 # O menor elemento é atualizado, recebe o índice do último elemento.
+   lw $a2, 0($fp)             # Restaura o valor de $a2.
+   sll $t1, $v0, 2            # Multiplica o índice do menor elemento ($v0) por 4 e armazena em $t1.
+   add $t1, $t1, $a0          # Calcula o endereço do elemento no menor elemento e armazena em $t1.
+   lw $t3, ($t1)              # Carrega o valor do menor elemento para $t3.
+   sll $t2, $a2, 2            # Multiplica o índice de fim ($a2) por 4 e armazena em $t2.
+   add $t2, $t2, $a0          # Calcula o endereço do último elemento do vetor e armazena em $t2.
+   lw $t4, ($t2)              # Carrega o valor do úlitmo elemento para $t4.
+   bge $t4, $t3, RETORNA      # Se o último elemento for maior do que o menor elemento, desvia para RETORNA.
+   move $v0, $a2              # O menor elemento é atualizado, recebe o índice do último elemento.
 
    RETORNA:
-   move $sp, $fp                                 # Alinhar $sp com $fp
-   lw $fp, 4($sp)                                # Restaura o valor antigo de $fp
-   lw $ra, 8($sp)		                 # Restaura o endereço de retorno
-   addi $sp, $sp, 12                             # Libera o espaço de 12 bytes na pilha.
-   jr $ra                                        # Retorna para a função chamadora.
+   move $sp, $fp              # Alinhar $sp com $fp
+   lw $fp, 4($sp)             # Restaura o valor antigo de $fp
+   lw $ra, 8($sp)		         # Restaura o endereço de retorno
+   addi $sp, $sp, 12          # Libera o espaço de 12 bytes na pilha.
+   jr $ra                     # Retorna para a função chamadora.
     
 main:
-   la $a0, vetor                                # $a0 = endereço base do vetor (parâmetro 1)
-   lw $a1, inicio                               # $a1 = índice do primeiro elemento do vetor (parâmetro 2)
-   lw $a2, fim                                  # $a2 = índice do último elemento do vetor (parâmetro 3)
-   jal minimo                                   # Chamda para função 'minimo'
-   move $a0, $v0                                # Move o valor de retorno da função para o registrador $a0
-   li $v0, 1                                    # Carrega o código para imprimir um inteiro (1) no registrador $v0.
-   syscall                                      # Executa o syscall para exibir o valor em $a0 no terminal.
-   li $v0, 10                                   # Carrega o código para encerrar o programa (10).
-   syscall                                      # Finaliza o programa.
+   la $a0, vetor              # $a0 = endereço base do vetor (parâmetro 1)
+   lw $a1, inicio             # $a1 = índice do primeiro elemento do vetor (parâmetro 2)
+   lw $a2, fim                # $a2 = índice do último elemento do vetor (parâmetro 3)
+   jal minimo                 # Chamda para função 'minimo'
+   move $a0, $v0              # Move o valor de retorno da função para o registrador $a0
+   li $v0, 1                  # Carrega o código para imprimir um inteiro (1) no registrador $v0.
+   syscall                    # Executa o syscall para exibir o valor em $a0 no terminal.
+   li $v0, 10                 # Carrega o código para encerrar o programa (10).
+   syscall                    # Finaliza o programa.
