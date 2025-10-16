@@ -33,15 +33,15 @@ minimo:
    jr $ra                                        # Retorna para a função chamadora.
 
 RECURSAO:
-   addi $sp, $sp, -8                             # Aloca 8 bytes de espaço na pilha
-   sw $a2, ($sp)                                 # Salva o registrador fim atual ($a2) na pilha. 
-   sw $ra, 4($sp)                                # Salva o registrador o endereço de retorno ($ra) na pilha.
+   addi $sp, $sp, -12                            # Aloca 12 bytes de espaço na pilha
+   sw $ra, 8($sp)                                # Salva o registrador o endereço de retorno ($ra) na pilha.
+   sw $fp, 4($sp)                                # Salva o valor antigo de $fp
+   sw $a2, 0($sp)                                # Salva o registrador fim atual ($a2) na pilha. 
+   move $fp, $sp                                 # Estabelecer a âncora do frame
    add $a2, $a2, -1                              # $a2 = $a2 - 1 (fim do vetor é decrementado em uma unidade).
    jal minimo                                    # Chamada recursiva.
    
-   lw $a2, ($sp)                                 # Restaura o valor de $a2.
-   lw $ra, 4($sp)                                # Restaura o endereço de retorno ($ra).
-   
+   lw $a2, 0($fp)                                # Restaura o valor de $a2.
    sll $t1, $v0, 2                               # Multiplica o índice do menor elemento ($v0) por 4 e armazena em $t1.
    add $t1, $t1, $a0                             # Calcula o endereço do elemento no menor elemento e armazena em $t1.
    lw $t3, ($t1)                                 # Carrega o valor do menor elemento para $t3.
@@ -52,7 +52,10 @@ RECURSAO:
    move $v0, $a2                                 # O menor elemento é atualizado, recebe o índice do último elemento.
 
    RETORNA:
-   addi $sp, $sp, 8                              # Libera o espaço de 8 bytes na pilha.
+   move $sp, $fp                                 # Alinhar $sp com $fp
+   lw $fp, 4($sp)                                # Restaura o valor antigo de $fp
+   lw $ra, 8($sp)		                 # Restaura o endereço de retorno
+   addi $sp, $sp, 12                             # Libera o espaço de 12 bytes na pilha.
    jr $ra                                        # Retorna para a função chamadora.
     
 main:
